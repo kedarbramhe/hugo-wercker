@@ -31,5 +31,5 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: kedar.bramhe.com
+        domain: kedarbramhe.github.io
         basedir: public
