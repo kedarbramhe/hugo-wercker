@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme= "codex"
+[Params]
+    mainSections = ["blog"]
+    intro = true
+    headline = "Hi  I'm Kedar"
+    description = ""
+    github = "kedarbramhe"
+    twitter = "kedarbramhe"
+    email = "kedar.brahme@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+[[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    title = "Blogs"
+    url = "/blog"
+[Permalinks]
+    post = "/:filename/"
