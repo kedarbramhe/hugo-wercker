@@ -5,7 +5,7 @@
 {{ define "main" }}
 
 <div class="splash-container">
-  <div class="splash">
+  <div class="splash" style="flex-basis: 30em;">
     
     <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
     {{ if isset .Params "handle" }}
@@ -15,6 +15,7 @@
 	    <!-- {{ .Params.subheading }}
     </h2>-->
     <!-- Replace MEEEEE -->
+  
     I am a 
   <span
      class="txt-rotate"
@@ -22,7 +23,7 @@
      data-rotate='[ "Developer", "Product Manager", "Tech Enthusiast" ]'></span>
   </h2>
     {{ partial "social-icons.html" .}}
-  </div>
+    </div>
 </div>
 
 {{ end }}
